@@ -1,11 +1,11 @@
 # backend/auth.py
 users_db = {
-    "alice": {"password": "finance123", "role": "finance"},
-    "bob": {"password": "marketing123", "role": "marketing"},
-    "carol": {"password": "hr123", "role": "hr"},
-    "dave": {"password": "engineering123", "role": "engineering"},
-    "eve": {"password": "executive123", "role": "executive"},
-    "frank": {"password": "employee123", "role": "employee"}
+    "Somik": {"password": "finance123", "role": "finance"},
+    "Prakhar": {"password": "marketing123", "role": "marketing"},
+    "Vanshika": {"password": "hr123", "role": "hr"},
+    "Writo": {"password": "engineering123", "role": "engineering"},
+    "Samyak": {"password": "executive123", "role": "executive"},
+    "Srishti": {"password": "employee123", "role": "employee"}
 }
 
 def authenticate_user(username: str, password: str):
