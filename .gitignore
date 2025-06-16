@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+*.sqlite3
+*.db
+
+# ChromaDB storage (if using persistent client)
+backend/chroma_db/
+chroma_storage/
+chroma_db/
+*.chroma
+
+
+# API keys and credentials
+.env
+
+
