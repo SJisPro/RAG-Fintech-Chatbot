@@ -1,5 +1,4 @@
 # backend/vector_store.py
-from chromadb.utils import embedding_functions
 import chromadb
 
 client = chromadb.PersistentClient(path="./chroma_db")
