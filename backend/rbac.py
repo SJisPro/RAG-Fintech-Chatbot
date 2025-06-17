@@ -1,4 +1,3 @@
-# backend/rbac.py
 role_permissions = {
     "finance": ["finance", "general"],
     "marketing": ["marketing", "general"],

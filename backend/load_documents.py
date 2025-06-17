@@ -1,4 +1,3 @@
-# backend/load_documents.py
 from backend.vector_store import add_document
 import os
 import pandas as pd

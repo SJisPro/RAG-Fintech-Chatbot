@@ -1,4 +1,3 @@
-# backend/main.py
 from fastapi import FastAPI, HTTPException, Request
 from backend.auth import authenticate_user
 from backend.rag import generate_response
@@ -41,7 +40,6 @@ async def query(request: Request):
 
     # If no authorized documents, return a friendly message
     if not authorized_docs:
-                # Optional: Role-based customized message
         role_guidance = {
             "finance": "You can ask about financial reports, expenses, and reimbursements.",
             "marketing": "You can ask about campaign performance, customer feedback, and sales metrics.",

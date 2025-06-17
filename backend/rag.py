@@ -1,4 +1,3 @@
-# backend/rag.py
 from backend.vector_store import search
 from groq import Groq
 import os
@@ -6,8 +5,6 @@ from dotenv import load_dotenv
 load_dotenv()
 
 groq_client = Groq(api_key=os.getenv("GROQ_API_KEY"))
-
-# backend/rag.py
 
 def generate_response(query, role, docs, sources):
     prompt = f"Answer the question based on the following documents:\n\n"

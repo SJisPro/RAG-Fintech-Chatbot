@@ -1,4 +1,3 @@
-# backend/auth.py
 users_db = {
     "Somik": {"password": "finance123", "role": "finance"},
     "Prakhar": {"password": "marketing123", "role": "marketing"},
