@@ -7,7 +7,7 @@ load_dotenv()
 groq_client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
 def generate_response(query, role, docs, sources):
-    prompt = f"Answer the question based on the following documents:\n\n"
+    prompt = f"You are a {role} assistant. Answer the question based on the following documents:\n\n"
     for idx, context in enumerate(docs):
         prompt += f"Document {idx+1}:\n{context}\n\n"
     prompt += f"Question: {query}\nAnswer:" 
